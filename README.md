@@ -92,7 +92,9 @@ skill-name/
 
 See the [template](template/) folder for the canonical skill structure.
 
-<img width="3664" height="2648" alt="star-history-20251222" src="https://github.com/user-attachments/assets/db467b7c-7663-43f4-be23-d04d4a982e00" />
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=muratcankoylan/Agent-Skills-for-Context-Engineering&type=date&legend=top-left)](https://www.star-history.com/#muratcankoylan/Agent-Skills-for-Context-Engineering&type=date&legend=top-left)
 
 ## Contributing
 
