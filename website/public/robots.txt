@@ -1,0 +1,5 @@
+# Block all crawlers - investor preview site
+User-agent: *
+Disallow: /
+
+
