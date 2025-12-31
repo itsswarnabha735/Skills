@@ -74,11 +74,18 @@ This repository is configured as a **Claude Code Plugin**, allowing you to load 
    Run this command in Claude Code to add this repository as a plugin source:
    ```bash
    /plugin marketplace add muratcankoylan/Agent-Skills-for-Context-Engineering
+   ```
 
-2. Install the **Skills Install** the context engineering suite:
+2. **Install Individual Skills**
+   Install the skills you need from the marketplace. For example:
    ```bash
-   /plugin install context-engineering@context-engineering-marketplace
-   
+   /plugin install context-fundamentals@context-engineering-marketplace
+   /plugin install context-optimization@context-engineering-marketplace
+   /plugin install multi-agent-patterns@context-engineering-marketplace
+   ```
+
+   Or browse and install any of the 11 available skills from the marketplace.
+
 <img width="1014" height="894" alt="Screenshot 2025-12-26 at 12 34 47 PM" src="https://github.com/user-attachments/assets/f79aaf03-fd2d-4c71-a630-7027adeb9bfe" />
 
 ### For Cursor & Codex & IDE
