@@ -26,6 +26,7 @@ These skills cover the patterns and structures for building effective agent syst
 
 | Skill | Description |
 |-------|-------------|
+| [solution-architecture](skills/architecture/) | Design rigorous system architecture using C4 models, ArchiMate, UML. From business requirements through specifications, diagrams, data models, and ADRs. Contract-first, documentation-first approach with project-oriented structure |
 | [multi-agent-patterns](skills/multi-agent-patterns/) | Master orchestrator, peer-to-peer, and hierarchical multi-agent architectures |
 | [memory-systems](skills/memory-systems/) | Design short-term, long-term, and graph-based memory architectures |
 | [tool-design](skills/tool-design/) | Build tools that agents can use effectively |
@@ -90,6 +91,7 @@ Option B - Direct install via command:
 
 ```
 /plugin install context-engineering-fundamentals@context-engineering-marketplace
+/plugin install system-architecture@context-engineering-marketplace
 /plugin install agent-architecture@context-engineering-marketplace
 /plugin install agent-evaluation@context-engineering-marketplace
 /plugin install agent-development@context-engineering-marketplace
@@ -100,6 +102,7 @@ Option B - Direct install via command:
 | Plugin | Skills Included |
 |--------|-----------------|
 | `context-engineering-fundamentals` | context-fundamentals, context-degradation, context-compression, context-optimization |
+| `system-architecture` | **NEW** solution-architecture (for designing system architectures, C4 models, ADRs, specifications) |
 | `agent-architecture` | multi-agent-patterns, memory-systems, tool-design |
 | `agent-evaluation` | evaluation, advanced-evaluation |
 | `agent-development` | project-development |
@@ -108,6 +111,7 @@ Option B - Direct install via command:
 
 | Skill | Triggers On |
 |-------|-------------|
+| `solution-architecture` | "design system architecture", "create architecture diagrams", "document architectural decisions", "extract business requirements", "design data models" |
 | `context-fundamentals` | "understand context", "explain context windows", "design agent architecture" |
 | `context-degradation` | "diagnose context problems", "fix lost-in-middle", "debug agent failures" |
 | `context-compression` | "compress context", "summarize conversation", "reduce token usage" |
