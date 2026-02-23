@@ -8,11 +8,10 @@
   "keywords": ["solopreneur", "clients", "pipeline", "para", "revenue", "content"],
   "skills_loading": "progressive",
   "default_bundle": "core-identity",
-  "bundles": [
-    {
-      "name": "core-identity",
-      "description": "Business identity foundations — profile, voice, ICP, positioning, and file organisation. Always pre-loaded.",
+  "bundles": {
+    "core-identity": {
       "load_priority": 1,
+      "description": "Business identity foundations — profile, voice, ICP, positioning, and file organisation. Always pre-loaded.",
       "skills": [
         "business-profile-creator",
         "voice-dna-creator",
@@ -21,10 +20,9 @@
         "para-organizer"
       ]
     },
-    {
-      "name": "client-work",
-      "description": "Full client lifecycle — onboarding, discovery, proposals, scope management, and contracts.",
+    "client-work": {
       "load_priority": 2,
+      "description": "Full client lifecycle — onboarding, discovery, proposals, scope management, and contracts.",
       "skills": [
         "client-management",
         "client-onboarding",
@@ -34,10 +32,9 @@
         "contract-templates"
       ]
     },
-    {
-      "name": "revenue-ops",
-      "description": "Financial operations — invoicing, expenses, financial health, retainers, and pricing.",
+    "revenue-ops": {
       "load_priority": 2,
+      "description": "Financial operations — invoicing, expenses, financial health, retainers, and pricing.",
       "skills": [
         "invoice-generator",
         "expense-tracker",
@@ -47,10 +44,9 @@
         "product-pricing-model"
       ]
     },
-    {
-      "name": "sales-growth",
-      "description": "Lead generation and sales — pipeline, outreach, company research, competitive analysis, and landing pages.",
+    "sales-growth": {
       "load_priority": 3,
+      "description": "Lead generation and sales — pipeline, outreach, company research, competitive analysis, and landing pages.",
       "skills": [
         "sales-pipeline",
         "draft-outreach",
@@ -61,10 +57,9 @@
         "landing-page-builder"
       ]
     },
-    {
-      "name": "product-build",
-      "description": "Product development — orchestration, PRDs, user stories, design briefs, problem statements, and personas.",
+    "product-build": {
       "load_priority": 3,
+      "description": "Product development — orchestration, PRDs, user stories, design briefs, problem statements, and personas.",
       "skills": [
         "pipeline-orchestrator",
         "prd-development",
@@ -74,10 +69,9 @@
         "proto-persona"
       ]
     },
-    {
-      "name": "research-validate",
-      "description": "Market research and validation — user discovery, market sizing, journey mapping, and idea testing.",
+    "research-validate": {
       "load_priority": 3,
+      "description": "Market research and validation — user discovery, market sizing, journey mapping, and idea testing.",
       "skills": [
         "user-discovery",
         "tam-sam-som-calculator",
@@ -85,10 +79,9 @@
         "idea-test"
       ]
     },
-    {
-      "name": "diagnostics",
-      "description": "Scored diagnostic assessments — build, run, and analyze diagnostics with Tally integration.",
+    "diagnostics": {
       "load_priority": 4,
+      "description": "Scored diagnostic assessments — build, run, and analyze diagnostics with Tally integration.",
       "skills": [
         "diagnostic-builder",
         "diagnostic-runner",
@@ -96,10 +89,9 @@
         "tally-integration"
       ]
     },
-    {
-      "name": "operations",
-      "description": "Business operations — weekly reviews, project management, capacity planning, health advisors, and launch planning.",
+    "operations": {
       "load_priority": 4,
+      "description": "Business operations — weekly reviews, project management, capacity planning, health advisors, and launch planning.",
       "skills": [
         "weekly-review",
         "project-management",
@@ -109,5 +101,5 @@
         "antislop-expert"
       ]
     }
-  ]
+  }
 }
